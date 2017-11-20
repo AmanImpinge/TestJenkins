@@ -1,2 +1,0 @@
-E:\Anil\Samples\JeckinsBuild\TestJenkins\MVCApp\MVCApp\obj\Debug\MVCApp.csprojResolveAssemblyReference.cache
-E:\Anil\Samples\JeckinsBuild\TestJenkins\MVCApp\MVCApp\obj\Debug\MVCApp.csproj.CoreCompileInputs.cache
