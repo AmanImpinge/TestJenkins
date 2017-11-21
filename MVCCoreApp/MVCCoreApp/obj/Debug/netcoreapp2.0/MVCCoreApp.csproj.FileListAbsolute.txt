@@ -1,0 +1,11 @@
+E:\Anil\Samples\JeckinsBuild\TestJenkins\MVCCoreApp\MVCCoreApp\bin\Debug\netcoreapp2.0\MVCCoreApp.deps.json
+E:\Anil\Samples\JeckinsBuild\TestJenkins\MVCCoreApp\MVCCoreApp\bin\Debug\netcoreapp2.0\MVCCoreApp.runtimeconfig.json
+E:\Anil\Samples\JeckinsBuild\TestJenkins\MVCCoreApp\MVCCoreApp\bin\Debug\netcoreapp2.0\MVCCoreApp.runtimeconfig.dev.json
+E:\Anil\Samples\JeckinsBuild\TestJenkins\MVCCoreApp\MVCCoreApp\bin\Debug\netcoreapp2.0\MVCCoreApp.dll
+E:\Anil\Samples\JeckinsBuild\TestJenkins\MVCCoreApp\MVCCoreApp\bin\Debug\netcoreapp2.0\MVCCoreApp.pdb
+E:\Anil\Samples\JeckinsBuild\TestJenkins\MVCCoreApp\MVCCoreApp\obj\Debug\netcoreapp2.0\MVCCoreApp.csproj.CoreCompileInputs.cache
+E:\Anil\Samples\JeckinsBuild\TestJenkins\MVCCoreApp\MVCCoreApp\obj\Debug\netcoreapp2.0\MVCCoreApp.AssemblyInfoInputs.cache
+E:\Anil\Samples\JeckinsBuild\TestJenkins\MVCCoreApp\MVCCoreApp\obj\Debug\netcoreapp2.0\MVCCoreApp.AssemblyInfo.cs
+E:\Anil\Samples\JeckinsBuild\TestJenkins\MVCCoreApp\MVCCoreApp\obj\Debug\netcoreapp2.0\MVCCoreApp.dll
+E:\Anil\Samples\JeckinsBuild\TestJenkins\MVCCoreApp\MVCCoreApp\obj\Debug\netcoreapp2.0\MVCCoreApp.pdb
+E:\Anil\Samples\JeckinsBuild\TestJenkins\MVCCoreApp\MVCCoreApp\obj\Debug\netcoreapp2.0\MVCCoreApp.csprojResolveAssemblyReference.cache
