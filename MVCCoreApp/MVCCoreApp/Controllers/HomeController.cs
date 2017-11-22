@@ -12,6 +12,7 @@ namespace MVCCoreApp.Controllers
     {
         public IActionResult Index()
         {
+testing
             return View();
         }
 
