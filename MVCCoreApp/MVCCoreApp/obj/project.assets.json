@@ -4831,7 +4831,7 @@
       ]
     },
     "Microsoft.AspNetCore.All/2.0.0": {
-      "sha512": "H+LwONBZOaiuFr/AuaH+VwO4QUamTpoUQ5qF4HM9+b3N3/r0wVrJAx2pB8KYwoHPIp4opix/ktUZMf3h6OBemA==",
+      "sha512": "AQ4SM2ZY+yhkQ+kJADXP6OpBpR4xWScYsy7WtV77LxXSroSc8PBe3LORa1eycC1zF3ob/vq6WAn5SEtElaOZcQ==",
       "type": "package",
       "path": "microsoft.aspnetcore.all/2.0.0",
       "files": [
@@ -12533,26 +12533,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
       "projectUniqueName": "E:\\Anil\\Samples\\JeckinsBuild\\TestJenkins\\MVCCoreApp\\MVCCoreApp\\MVCCoreApp.csproj",
       "projectName": "MVCCoreApp",
       "projectPath": "E:\\Anil\\Samples\\JeckinsBuild\\TestJenkins\\MVCCoreApp\\MVCCoreApp\\MVCCoreApp.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "packagesPath": "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\",
       "outputPath": "E:\\Anil\\Samples\\JeckinsBuild\\TestJenkins\\MVCCoreApp\\MVCCoreApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
