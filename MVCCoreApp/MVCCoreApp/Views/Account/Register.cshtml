@@ -1,0 +1,40 @@
+﻿@model MVCCoreApp.Models.Account.RegisterModel
+@{
+    ViewData["Title"] = "Login";
+}
+<h2>Login</h2>
+<div class="row">
+    <div class="col-md-6">
+        @using (Html.BeginForm("Register", "Account", null, FormMethod.Post))
+        {
+            <div class="form-group">
+                @Html.LabelForModel("UserName")
+                @Html.TextBoxFor(m => m.UserName, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.UserName)
+            </div>
+            <div class="form-group">
+                @Html.LabelForModel("Email")
+                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Email)
+            </div>
+            <div class="form-group">
+                @Html.LabelForModel("Password")
+                @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Password)
+            </div>
+            <div class="form-group">
+                @Html.LabelForModel("Confirm Password")
+                @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.ConfirmPassword)
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Register" />
+                @Html.ValidationSummary(true)
+            </div>
+        }
+    </div>
+</div>
+@section Scripts{
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+}

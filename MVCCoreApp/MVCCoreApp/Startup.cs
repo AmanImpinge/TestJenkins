@@ -6,6 +6,10 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MVCCoreApp.DBContext;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using MVCCoreApp.DBContext.Entities;
 
 namespace MVCCoreApp
 {
@@ -22,6 +26,12 @@ namespace MVCCoreApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddDbContext<TestDBContext>(options =>
+       options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+        .AddEntityFrameworkStores<TestDBContext>()
+        .AddDefaultTokenProviders();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,6 +55,8 @@ namespace MVCCoreApp
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            app.UseAuthentication();
         }
     }
 }
